@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    outline: solid 1px #5AC11D;
+    padding-top: 10px;
+
+    .contactForm {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        input {
+            border: 1px solid #5AC11D;
+            border-radius: 2px;
+            margin: 5px;
+            padding: 8px;
+            width: 320px;
+        }
+
+        button {
+            padding: 10px 30px;
+            border-radius: 5px;
+            border: 8px #5AC11D;
+            text-transform: uppercase;
+            color: white;
+            background-color: #5AC11D;
+            cursor: pointer;
+        }
+    }
+}

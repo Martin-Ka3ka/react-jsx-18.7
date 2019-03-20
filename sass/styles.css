@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  outline: solid 1px #5AC11D;
+  padding-top: 10px;
+}
+
+.app .contactForm {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app .contactForm input {
+  border: 1px solid #5AC11D;
+  border-radius: 2px;
+  margin: 5px;
+  padding: 8px;
+  width: 320px;
+}
+
+.app .contactForm button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 8px #5AC11D;
+  text-transform: uppercase;
+  color: white;
+  background-color: #5AC11D;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
